@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.xu.progressanima.progressbar.HorProgress
+        android:id="@+id/hor_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:app_level_text_color="#5db8ff"
+        app:app_pgb_end_color="#96d8fe"
+        app:app_pgb_start_color="#4cb2ff"
+        app:app_progress_bg_color="#e6ebf1"
+        app:app_progress_color="#4cb2ff"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <com.xu.progressanima.progressbar.CirProgress
+        android:id="@+id/cir_progress"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:app_background_progressbar_color="#e7e7e7"
+        app:app_progressbar_color="#ffca4c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hor_progress" />
+</android.support.constraint.ConstraintLayout>

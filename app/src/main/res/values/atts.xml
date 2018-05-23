@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 积分圆形进度条 -->
+    <declare-styleable name="CirProgress">
+        <attr name="app_progress" format="integer" />
+        <attr name="app_progressbar_color" format="color" />
+        <attr name="app_background_progressbar_color" format="color" />
+        <attr name="app_progressbar_width" format="dimension" />
+        <attr name="app_background_progressbar_width" format="dimension" />
+        <attr name="app_score_num" format="float"/>
+    </declare-styleable>
+    <!-- 积分水平进度条 -->
+    <declare-styleable name="HorProgress">
+        <attr name="app_x_radius" format="float"></attr>
+        <attr name="app_y_radius" format="float"></attr>
+        <attr name="app_progress_height" format="integer"></attr>
+        <attr name="app_progress_width" format="integer"></attr>
+        <attr name="app_progress_margin" format="integer"></attr>
+        <attr name="app_progress_color" format="color|reference"></attr>
+        <attr name="app_progress_bg_color" format="color|reference"></attr>
+        <attr name="app_level_text_color" format="color"/>
+        <attr name="app_pgb_start_color" format="color"/>
+        <attr name="app_pgb_end_color" format="color"/>
+    </declare-styleable>
+</resources>
